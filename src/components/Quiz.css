@@ -1,0 +1,48 @@
+/* src/components/Quiz.css */
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  
+  .question-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .question-text {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .answer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .score-section {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .submit:hover{
+    background-color: cornflowerblue;
+  } 
